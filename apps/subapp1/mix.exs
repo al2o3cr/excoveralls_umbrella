@@ -18,6 +18,8 @@ defmodule SubApp1.Mixfile do
   end
 
   defp deps do
-    []
+    [
+      {:subapp0, in_umbrella: true}
+    ]
   end
 end

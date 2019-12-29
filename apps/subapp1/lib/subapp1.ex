@@ -6,4 +6,8 @@ defmodule SubApp1 do
   def minus(a, b) do
     a - b
   end
+
+  def mul(a, b) do
+    SubApp0.mul(a, b)
+  end
 end
